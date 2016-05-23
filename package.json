@@ -1,0 +1,41 @@
+{
+  "name": "react-catalogo",
+  "version": "1.0.0",
+  "description": "Project built with ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/js/app/app.js | uglifyjs -c > public/js/bundle.min.js"
+  },
+  "author": "John Machahuay",
+  "dependencies": {
+    "lodash": "4.8.2",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-router": "^2.4.0",
+    "superagent": "^1.8.3",
+    "history": "1.17.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.2.0",
+    "bootstrap": "^3.3.6",
+    "browserify": "^11.0.1",
+    "envify": "3.4.0",
+    "font-awesome": "^4.6.1",
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-concat": "^2.4.3",
+    "gulp-concat-sourcemap": "^1.3.1",
+    "gulp-imagemin": "~2.3.0",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-minify-css": "~1.2.1",
+    "gulp-sourcemaps": "^0.4.5",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "~3.0.6",
+    "imagemin-pngquant": "^5.0.0",
+    "jquery": "^2.2.4",
+    "jshint-stylish": "^1.0.0",
+    "uglifyify": "^3.0.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

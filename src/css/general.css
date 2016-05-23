@@ -1,0 +1,165 @@
+/* Styles go here */
+
+/* General */
+
+header a {
+  margin: 30px;
+}
+
+h2, h3 {
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.container-slider p, .container-slider h3, .container-slider h2 {
+  color: white;
+}
+
+.parent-item h2 {
+    margin-top: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+.size-22 {
+    font-size: 22px;
+}
+.size-20 {
+    font-size: 20px;
+}
+.size-12 {
+    font-size: 12px;
+}
+.well.well-sm {
+    padding: 0;
+    padding-left: 10px;
+}
+.rounded{
+  border-radius: 50%;
+}
+
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 20px;
+}
+
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 70px;
+}
+
+#quote-carousel.carousel .carousel-indicators {
+  bottom: -10px;
+}
+
+#quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+
+.carousel-inner {
+    min-height: 400px;
+}
+
+p {
+  text-align: justify;
+  font-size: 16px;
+}
+
+.img-responsive {
+  display: inline-block;
+}
+
+.container-slider {
+  display: table;
+}
+
+.container-btn-control {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.container-btn-control a {
+  height: 70px;
+  width: 70px;
+  line-height: 3.3;
+}
+.cont-slider img {
+    min-width: 400px;
+    height: 500px;
+    float: left;
+    margin-left: -25px;
+}
+.btn-success {
+  background: linear-gradient(to left top, #4cae4c 0%,#61c419 56%);
+  border: none !important;
+}
+
+.btn-more {
+  font-size: 25px;
+  padding-left: 30px;
+  margin-left: 30px;
+}
+
+.container-media-product li {
+    display: inline-block;
+    margin-top: 5px;
+}
+.pull-right.img-responsive {
+    height: 500px;
+}
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#products .thumbnail {
+    min-height: 230px;
+    overflow: hidden;
+    max-height: 230px;
+    position: relative;
+}
+#products .thumbnail > img {
+    height: 120px;
+}
+#brands img {
+    height: 150px;
+}
+
+.thumbnail {
+    background: transparent;
+    border: none;
+}
+
+.thumbnail .group.inner.list-group-item-heading {
+    padding: 5px;
+}
+.thumbnail .caption {
+    bottom: 0;
+    position: absolute;
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
